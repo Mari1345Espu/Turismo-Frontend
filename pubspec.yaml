@@ -1,0 +1,23 @@
+name: rutas_andinas
+description: App turística para explorar, calificar y gestionar lugares.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  geolocator: ^9.0.0
+  google_maps_flutter: ^2.2.0
+  logging: ^1.2.0
+  shared_preferences: ^2.0.18
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

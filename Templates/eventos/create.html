@@ -1,0 +1,24 @@
+{% extends 'home/base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">Crear Evento</h2>
+    <form method="post">
+        <div class="mb-3">
+            <label for="titulo" class="form-label">Título del evento</label>
+            <input type="text" class="form-control" id="titulo" name="titulo" required>
+        </div>
+        <div class="mb-3">
+            <label for="fecha" class="form-label">Fecha del evento</label>
+            <input type="date" class="form-control" id="fecha" name="fecha" required>
+        </div>
+        <div class="mb-3">
+            <label for="descripcion" class="form-label">Descripción</label>
+            <textarea class="form-control" id="descripcion" name="descripcion" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Crear Evento</button>
+    </form>
+</div>
+{% endblock %}
+
+
