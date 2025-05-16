@@ -8,7 +8,7 @@
 - **Lenguaje**: Dart
 - **Consumo de API**: HTTP REST (integración con backend en Django)
 - **Diseño**: Adaptativo y basado en paleta azul/blanco
-- **Geolocalización y Mapas**: Google Maps API (si aplica)
+- **Geolocalización y Mapas**: Google Maps API 
 
 ##  Funcionalidades del Frontend
 
